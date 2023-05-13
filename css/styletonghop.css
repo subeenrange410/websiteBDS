@@ -1,0 +1,94 @@
+
+
+  
+  #image_BDS {
+    width: 325px;
+    height: 236px;
+    border: 1px solid #ccc;
+  }
+
+  .propertyCard{
+    display: inline-block;
+
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  #propertyContainer{
+    margin-left: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 100px;
+
+  }
+  .propertyDetails{
+    width: 330px;
+    height: auto;
+    display: block;
+    border: solid;
+  }
+  .btn_xemchitiet_BDS {
+    background-color: #4CAF50; /* màu nền */
+    color: white; /* màu chữ */
+    border: none; /* không có viền */
+    padding: 12px 24px; /* kích thước nút */
+    font-size: 16px; /* kích thước chữ */
+    font-weight: bold; /* đậm chữ */
+    cursor: pointer; /* hình con trỏ */
+    border-radius: 4px; /* bo góc nút */
+
+  }
+
+  .btn_xemchitiet_BDS:hover {
+    background-color: #3e8e41; /* màu nền khi hover */
+  }
+  #des_btn{
+    background-color: black;
+    width: 325px;
+    height: 48px;
+  }
+  #des_gia{
+    margin-bottom: 0px;
+  }
+
+
+  .notification-btn {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    color: #c21616;
+    cursor: pointer;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    transition-duration: 0.4s;
+  }
+  
+  .notification-btn:hover {
+    background-color: #bd0c0c;
+    color: #ffffff;
+  }
+  
+  .notification-form {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 10px;
+    display: none;
+  }
+  
+  .notification-form table {
+    width: 100%;
+  }
+  
+  .notification-form table td {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .notification-btn:hover + .notification-form {
+    display: block;
+  }
+  

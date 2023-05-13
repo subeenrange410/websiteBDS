@@ -1,0 +1,180 @@
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color:rgb(0, 251, 255);
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.7); /* Thêm độ trong suốt */
+    color: black; /* Thay đổi màu chữ thành đen */
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    padding: 4px;
+    background-color: #ccc;
+    border-radius: 4px;
+    transition: all .2s;
+}
+
+a:hover {
+    background-color: #252222;
+    color: white;
+}
+
+
+/* Thiết kế cho button có id là "btn-tk" */
+#btn-tk {
+    background-color: #4CAF50; /* Màu nền */
+    border: none; /* Không có border */
+    color: white; /* Màu chữ */
+    padding: 10px 20px; /* Kích thước */
+    text-align: center; /* Canh giữa chữ */
+    text-decoration: none; /* Không có underline */
+    display: inline-block; /* Hiển thị theo chiều ngang */
+    font-size: 16px; /* Cỡ chữ */
+    margin: 5px; /* Khoảng cách */
+    cursor: pointer; /* Biến con trỏ chuột thành nét đứt */
+    transition-duration: 0.4s; /* Thời gian hiệu ứng */
+}
+
+/* Thiết kế cho button có id là "btn-bds" */
+#btn-bds {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    transition-duration: 0.01s;
+}
+
+/* Hiệu ứng hover */
+#btn-tk:hover, #btn-bds:hover {
+    background-color: #555555;
+    border: solid white;
+}
+
+#btn-dangtin {
+  background-color: #dd1da6;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  transition-duration: 0.01s;
+  }
+  
+  /* Hover effect */
+  #btn-dangtin:hover {
+  background-color: #555555;
+  border: solid white;
+  }
+
+.edit-link,
+.delete-link {
+  color: #333;
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 4px;
+  transition: all .2s;
+}
+
+.edit-link:hover,
+.delete-link:hover {
+  background-color: #666;
+  color: white;
+}
+
+.delete-link {
+  margin-left: 10px;
+  background-color: #d9534f;
+}
+
+.delete-link:hover {
+  background-color: #c9302c;
+}
+
+.edit-link {
+  background-color: #5cb85c;
+}
+
+.edit-link:hover {
+  background-color: #449d44;
+}
+
+.duyet-link {
+  color: #333;
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 4px;
+  transition: all .2s;
+  background-color: #5bc0de;
+  }
+  
+  .duyet-link:hover {
+  background-color: #31b0d5;
+  color: white;
+  }
+
+
+  #btn-ndt {
+    background-color: #FFA500;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    transition-duration: 0.01s;
+  }  
+  #btn-ndt:hover {
+      background-color:  #51700e;
+      border: solid white;
+  }
+
+
+  #btn-ph {
+    background-color: #FF2400;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    transition-duration: 0.01s;
+  }  
+  #btn-ph:hover {
+    background-color: #6e2419;
+    border: solid white;
+  }
+    

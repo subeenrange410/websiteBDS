@@ -1,0 +1,28 @@
+footer {
+    background-color: #181212;
+    padding: 20px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .footer-address h4,
+  .footer-contact h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-address p,
+  .footer-contact p {
+    margin: 0;
+  }
+  

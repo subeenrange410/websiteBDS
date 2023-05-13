@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(249, 249, 249);
+    color: rgb(233, 7, 7);
+    width: auto;
+    text-align: center;
+  }
+  
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    display: inline-block;
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn_dangtin{
+    position: absolute;
+    right: 0;
+    background-color: #a10069;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:alias;
+    border-radius: 5px;
+  }
+    .btn_dangtin:hover {
+      background-color: #790452;
+    }

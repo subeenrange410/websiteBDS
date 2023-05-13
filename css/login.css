@@ -1,0 +1,147 @@
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.92);
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .login {
+    background-color: #046a09;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 12px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .login:hover {
+    background-color: #19d228;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+    }
+
+    .login_ad {
+        background-color: #185e97;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        padding: 12px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        }
+        
+    .login_ad:hover {
+        background-color: #1976d2;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        transform: translateY(-2px);
+    }
+  
+
+  a.login_dk {
+    display: inline-block;
+    background-color: #ccc;
+    color: red;
+
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  a.login_dk:hover {
+    background-color: #b93a00;
+    color:wheat
+  }
+  .cnphu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .cnphu h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .cnphu a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .cnphu a:hover {
+    text-decoration: underline;
+  }
+
+  .change_password,
+.forgot_password {
+  background-color: #3a152d;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 5px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.change_password:hover,
+.forgot_password:hover {
+  background-color: #dfbc0f;
+  padding: 15px 25px;
+  font-size: 18px;
+  border-radius: 100px;
+}
+
+
